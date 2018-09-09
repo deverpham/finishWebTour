@@ -1,2 +1,0 @@
-# finishWebTour
-Created with CodeSandbox
