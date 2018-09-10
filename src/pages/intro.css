@@ -15,17 +15,7 @@
 .logo:hover {
   cursor: pointer;
 }
-.logo:hover .intro__logo_mask {
-  opacity: 1;
-  transition: 0.5s opacity;
-}
-.intro__logo_mask {
-  opacity: 0;
-  border: 10px solid red;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
+
 .intro_sologan {
   position: absolute;
   bottom: 25%;
@@ -37,8 +27,11 @@
 }
 #lightningSvg {
   position: absolute;
-  z-index: -10;
+  z-index: 999;
 }
-body {
-  background: black;
+#svg {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
 }
