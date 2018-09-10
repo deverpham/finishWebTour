@@ -1,0 +1,25 @@
+.logo_avatar {
+  max-width: 80px;
+  height: auto;
+  top: 20px !important;
+}
+.dever_name {
+  position: absolute;
+  bottom: 30px;
+  font-size: 13px;
+  left: 35px;
+  right: 0;
+  margin: 0 auto;
+}
+.logo {
+  box-shadow: 2px 2px 2px red;
+}
+.intro_sologan {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  line-height: 2;
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+}

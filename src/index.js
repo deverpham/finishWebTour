@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import { Intro } from "./pages/intro";
 import "./styles.css";
+import "./main.scss";
 class App extends React.Component {
   render() {
     return (
